@@ -4,32 +4,32 @@ body {
 
 @font-face {
   font-family: 'Gora-Free';
-  src: url('./templates/fitness/fonts/gora-free.ttf');
+  src: url('templates/fitness/fonts/gora-free.ttf');
 }
 
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url('./templates/fitness/fonts/OpenSans-Bold.ttf');
+  src: url('templates/fitness/fonts/OpenSans-Bold.ttf');
 }
 
 @font-face {
   font-family: 'OpenSans-ExtraBold';
-  src: url('./templates/fitness/fonts/OpenSans-ExtraBold.ttf');
+  src: url('templates/fitness/fonts/OpenSans-ExtraBold.ttf');
 }
 
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url('./templates/fitness/fonts/Open_Sans/OpenSans-Regular.ttf');
+  src: url('templates/fitness/fonts/Open_Sans/OpenSans-Regular.ttf');
 }
 
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url('./templates/fitness/fonts/OpenSans-Light.ttf');
+  src: url('templates/fitness/fonts/OpenSans-Light.ttf');
 }
 
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('./templates/fitness/fonts/OpenSans-Light.ttf');
+  src: url('templates/fitness/fonts/OpenSans-Light.ttf');
 }
 
 .header {
@@ -54,7 +54,7 @@ body {
   left: 0; 
   color: #f89513;
   text-decoration: none;
-  font-family: 'Gora Free';
+  font-family: 'Gora-Free';
   font-size: 18px;
   letter-spacing: 0.9pt;
   vertical-align: middle;
@@ -580,30 +580,47 @@ margin-right: 26px;
   max-height: 100%;
 }
 
-.footer__copyright p{
-  width: 240px;
-  /* height: 50px; */
+.footer__copyright-text {
   font-family: 'OpenSans-Light', sans-serif;
   color: #fff;
   font-size: 14px;
-  /*  padding-top: 11px;
-  padding-bottom: 11px; */
   text-align: left;
   line-height: 18px;
   display: inline-block;
   margin: 0px;
 }
 
+.footer__copyright-link {
+  max-width: 100%;
+  font-family: 'OpenSans-Light', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.footer__copyright-link b {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+b.footer__copyright {
+  font-weight: 700;
+}
+
 .footer__copyright {
   display: inline-block;
   position: absolute;
+  max-width: 100%;
   top: 14px;
 }
 
 .footer__header-name {
   color: #f89513;
   text-decoration: none;
-  font-family: 'Gora Free';
+  font-family: 'Gora-Free';
   /*transform: translateX(17%)*/
   position: absolute;
   left: 0px;
