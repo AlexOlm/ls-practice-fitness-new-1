@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <link type="text/css" rel="stylesheet" href="./CSS/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet">
@@ -14,270 +14,281 @@
   <div class="wrapper">
     <header class="header">
       <div class="container header__container">
-        <a href="/" class="ws-name">
+        <a href="/" class="header-name">
           АФРОДИТА
         </a>
-        <nav class="ws-nav">
-          <ul class="ws-nav-list">
-            <li class="ws-nav-list-line">
-              <a href="#" class="ws-nav-list-item-link">
-                <img src="./templates/fitness/main_icon.png" alt="Главная страница сайта">
-                <div class="ws-nav-list-item">главная</div>
+        <nav class="header__navigation">
+          <ul class="header__navigation-list">
+            <li class="header__navigation-list-line">
+              <a href="#" class="header__navigation-list-item-link">
+                <img src="./Templates/fitness/main_icon.png" class="header__icon"  alt="Главная страница сайта">
+                <div class="header__navigation-list-item">главная</div>
               </a>
             </li>
-            <li class="ws-nav-list-line">
-              <a href="#" class="ws-nav-list-item-link">
-                <img src="./templates/fitness/feed_icon.png" alt="Отзывы">
-                <div class="ws-nav-list-item"> отзывы</div>
+            <li class="header__navigation-list-line">
+              <a href="#" class="header__navigation-list-item-link">
+                <img src="./Templates/fitness/feed_icon.png" class="header__icon header__icon--feedback" alt="Отзывы">
+                <div class="header__navigation-list-item"> отзывы</div>
               </a>
             </li>
-            <li class="ws-nav-list-line">
-              <a href="#" class="ws-nav-list-item-link">
-                <img src="./templates/fitness/service_icon.png" alt="Услуги">
-                <div class="ws-nav-list-item"> услуги</div>
+            <li class="header__navigation-list-line">
+              <a href="#" class="header__navigation-list-item-link">
+                
+                  <img src="./Templates/fitness/service_icon.png" class="header__icon" alt="Услуги">
+                
+                <div class="header__navigation-list-item"> услуги</div>
               </a>
             </li>
-          </ul
-        </nav>  
-        <div class="contacts">
-          <a href="tel:+78000039210" class="contacts_phone">8 (800) 00-392-99</a>
-          <div class="business-hours"><a href="#" class="business-hours-link">График работы</a></div>
+          </ul>
+        </nav> 
+        <div class="header__contacts">
+          <a href="tel:+78000039210" class="header__contacts-phone">8 (800) 00-392-10</a>
+          <div class="header__contacts-business-hours"><a href="#" class="header__contacts-business-hours-link">График работы</a></div>
         </div>
       </div>
     </header>
     <div class="main-content">
-      <div class="nike-motto-container">
-        <a href="#" class="nike-motto-img">
-          <div class="nike-motto">
-            <img src="./templates/fitness/imagebanner.png" alt="Cлоган Nike">
-          </div>
-        </a>
-      </div>
+      <div class="nike-motto">
+        <div class="container-nike-motto">
+          <a href="./Templates/fitness/ImageBanner.png" class="nike-motto__img">
+            <div class="nike-motto">
+              <img src="./Templates/fitness/ImageBanner.png" alt="Cлоган Nike">
+            </div>
+          </a>
+        </div>
+      </div>  
       <div class="features">
-        <div class="features-header">ОСОБЕННОСТИ</div>
-        <div class="features-block">
-          <ul class="key-features-list">
-            <li class="key-features-item">
-              <div class="key-features-pic">
-                <div class="background"></div>
-                <div class="feature-pic flower">
-                  <img src="./templates/fitness/flower.png" alt="Уникальность">
+        <div class="container">
+          <div class="features__header-main">ОСОБЕННОСТИ</div>
+          <ul class="features__list">
+            <li class="features__list-item">
+              <div class="features__pic">
+                <div class="features__pic-background"></div>
+                <div class="features__feature-pic features__feature-pic--flower">
+                  <img src="./Templates/fitness/flower.png" alt="Уникальность">
                 </div>
               </div>
-              <div class="key-features-block">
-                <h4 class="key-features-header">уникальность</h4>
-                <div class="key-features-text">
-                  <p>Мы делаем все, <br>для вашего комфорта</p>
+              <div class="features__feature-block">
+                <h4 class="features__feature-header">уникальность</h4>
+                <div class="features__feature-text">
+                  <p><span>Мы делаем все,</span>
+                  <span>для вашего комфорта</span></p>
                 </div>
-                <div class="key-features-list-in-list">  
-                  <ul class="key-features-block-list">
-                   <li><div class="key-features-block-item">Питание включено</div></li>
-                   <li><div class="key-features-block-item">Багаж (5кг)</div></li>
-                   <li><div class="key-features-block-item">Душ/баня</div></li>
+                <div class="features__feature-list-in-list">  
+                  <ul class="features__feature-block-list">
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Питание включено</div></li>
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Багаж (5кг)</div></li>
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Душ/баня</div></li>
                   </ul>
                 </div>
               </div>
             </li>
-            <li class="key-features-item">
-              <div class="key-features-pic">
-                <div class="background"></div>
-                <div class="feature-pic star">
-                  <img src="./templates/fitness/mark-as-favorite-star.png" alt="Премиум-класс">
+            <li class="features__list-item">
+              <div class="features__pic">
+                <div class="features__pic-background"></div>
+                <div class="features__feature-pic features__feature-pic--star">
+                  <img src="./Templates/fitness/mark-as-favorite-star.png" alt="Премиум-класс">
                 </div>
               </div>
-              <div class="key-features-block">
-                <h4 class="key-features-header">премиум-класс</h4>
-                <div class="key-features-text">
+              <div class="features-block">
+                <h4 class="features__feature-header">премиум-класс</h4>
+                <div class="features__feature-text">
                   <p>Наш зал оборудован тренажерами А-класса</p>
                 </div>
-                <div class="key-features-list-in-list">
-                  <ul class="key-features-block-list">
-                   <li><div class="key-features-block-item">Качество</div></li>
-                   <li><div class="key-features-block-item">Продуктивность</div></li>
-                   <li><div class="key-features-block-item">Результат</div></li>
+                <div class="features__feature-list-in-list">
+                  <ul class="features__feature-block-list">
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Качество</div></li>
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Продуктивность</div></li>
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Результат</div></li>
                   </ul>
                 </div>
               </div>
             </li>
-            <li class="key-features-item">
-              <div class="key-features-pic">
-                <div class="background"></div>
-                <div class="feature-pic palette">
-                  <img src="./templates/fitness/painter-palette.png" alt="Личный-тренер">
+            <li class="features__list-item">
+              <div class="features__pic">
+                <div class="features__pic-background"></div>
+                <div class="features__feature-pic features__feature-pic--palette">
+                  <img src="./Templates/fitness/painter-palette.png" alt="Личный-тренер">
                 </div>  
               </div>
-              <div class="key-features-block">
-                <h4 class="key-features-header">личный тренер</h4>
-                <div class="key-features-text">
-                  <p >Тренер сделает все <br>для вашего результата</p>
+              <div class="features-block">
+                <h4 class="features__feature-header">личный тренер</h4>
+                <div class="features__feature-text">
+                  <p><span>Тренер сделает все</span>
+                     <span>для вашего результата</span></p>
                 </div>
-                <div class="key-features-list-in-list">
-                  <ul class="key-features-block-list">
-                   <li><div class="key-features-block-item">Программа</div></li>
-                   <li><div class="key-features-block-item">Питание</div></li>
-                   <li><div class="key-features-block-item">План тренеровок</div></li>
+                <div class="features__feature-list-in-list">
+                  <ul class="features__feature-block-list">
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Программа</div></li>
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">Питание</div></li>
+                   <li class="features__feature-list-in-list"><div class="features__feature-block-item">План тренеровок</div></li>
                   </ul>
               </div>
               </div>
             </li>
           </ul>
-        </div> 
+        </div>
       </div>
-    </div>
-    <div class="latest-news-header">ПОСЛЕДНИЕ НОВОСТИ</div>
-    <div class="latest-news">
-      <div class="latest-news-section">
-        <ul class="latest-news-list">
-          <li class="latest-news-item">
-            <div class="latest-news-item-pic">
-              <img src="./templates/fitness/Ellipse 1.jpg" alt="Похудение с помощью бодибилдинга!">
-            </div>
-            <div class="latest-news-block">
-              <div class="latest-news-date">02.10.2106</div>              
-              <h4 class="latest-news-block-header">Похудение с помощью бодибилдинга!</h4>              
-              <div class="latest-news-block-text">
-                <p>
-                 Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий, однако в
-                 минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4
-                 литров кислорода. Это крайне важно для каждого начинающего атлета
-                </p>  
+      <div class="latest-news">
+        <div class="latest-news__container">
+          <div class="latest-news__header">ПОСЛЕДНИЕ НОВОСТИ</div>
+          <div class="latest-news__area">
+            <!--<div class="latest-news-section">-->
+            <ul class="latest-news__list">
+              <li class="latest-news__list-item">
+                <div class="latest-news__list-item-pic">
+                  <img src="./Templates/fitness/Ellipse 1.jpg" alt="Похудение с помощью бодибилдинга!">
+                </div>
+                <div class="latest-news__news-block">
+                  <div class="latest-news__news-block-date">02.10.2106</div>              
+                  <h4 class="latest-news__news-block-header">Похудение с помощью бодибилдинга!</h4>              
+                  <div class="latest-news__news-block-text">
+                    <p>
+                     Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий, однако в
+                     минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4
+                     литров кислорода. Это крайне важно для каждого начинающего атлета.
+                    </p>  
+                  </div>
+                </div>
+              </li>  
+              <li class="latest-news__list-item ln-borders">
+                <div class="latest-news__list-item-pic">
+                  <img src="./Templates/fitness/Ellipse 2.png" alt="Заражай друзей, получай призы">
+                </div>
+                <div class="latest-news__news-block">
+                  <div class="latest-news__news-block-date">02.02.2106</div>
+                  <h4 class="latest-news__news-block-header">Заражай друзей, получай призы!</h4>
+                  <div class="latest-news__news-block-text latest-news__news-block-text--news-2">
+                    <p>
+                      Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены,
+                      пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка.
+                      Мы заботимся о вашем комфорте и предлагаем испытать это уже сегодня! 
+                    </p>  
+                  </div>
+                </div>
+              </li>
+              <li class="latest-news__list-item">
+                <div class="latest-news__list-item-pic">
+                  <img src="./Templates/fitness/Ellipse 3.png" alt="Фрилансер? Выпрями спину!">
+                </div>
+                <div class="latest-news__news-block">
+                  <div class="latest-news__news-block-date">22.12.2015</div>              
+                  <h4 class="latest-news__news-block-header">Фрилансер? Выпрями спину!</h4>
+                  <div  class="latest-news__news-block-text latest-news__news-block-text--news-3">
+                    <p>
+                      Создай рабочее местро под себя. Вот этот инструмент поможет определить, что
+                      подходит именно вам и вашему организму. Исползуйте специальную подставку для ноутбука,
+                      если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
+                    </p>  
+                  </div> 
+                </div>
+              </li>
+            </ul>
+          </div>
+          <aside class="sidebar-news">
+            <h3 class="sidebar-news__header">топ новостей</h3>
+            <p class="sidebar-news__period">за сентябрь</p>
+            <ul class="sidebar-news__list">
+              <li class="sidebar-news__list-item">
+                <a href="#" class="sidebar-news__link">
+                  <img src="./Templates/fitness/Rectangle 1.png" alt="Lorum ipsum">
+                </a>
+              </li>
+              <li class="sidebar-news__list-item">
+                <a href="#" class="sidebar-news__link">
+                  <img src="./Templates/fitness/Rectangle 2.png" alt="Lorum ipsum">
+                </a>
+              </li>
+              <li class="sidebar-news__list-item">
+                <a href="#" class="sidebar-news__link">
+                  <img src="./Templates/fitness/Rectangle 3.png" alt="Lorum ipsum">
+                </a>
+              </li>
+            </ul>
+          </aside>
+          <div class="pager">
+            <div class="container-pager">
+              <div class="pager__description">Станица 1 из 7</div>
+              <div class="pager__pages">
+                <a href="#" class="pager__button-preview-lt">&lt;</a>
+                <ul class="pages__list">
+                  <li class="pages__item"> 
+                    <a href="#" class="pagination__link pages-one">1</a>
+                  </li>
+                  <li class="pages__item"> 
+                    <a href="#" class="pagination__link">2</a>
+                  </li>
+                  <li class="pages__item"> 
+                    <a href="#" class="pagination__link">3</a>
+                  </li>  
+                  <li class="pages__item"> 
+                    <a href="#" class="pagination__link">4</a>
+                  </li>
+                  <li class="pages__item"> 
+                    <a href="#" class="pagination__link">5</a>
+                  </li>
+                  <li class="pages__item"> 
+                    <a href="#" class="pagination__link">6</a>
+                  </li>
+                  <li class="pages__item"> 
+                    <a href="#" class="pagination__link">7</a>
+                  </li>
+                </ul>
+                <a href="#" class="pager__button-preview-gt">&gt;</a>
               </div>
             </div>
-          </li>  
-          <li class="latest-news-item ln-borders">
-            <div class="latest-news-item-pic">
-              <img src="./templates/fitness/Ellipse 2.png" alt="Заражай друзей, получай призы">
-            </div>
-            <div class="latest-news-block">
-              <div class="latest-news-date">02.02.2106</div>
-              <h4 class="latest-news-block-header">Заражай друзей, получай призы!</h4>
-              <div class="latest-news-block-text">
-                <p>
-                  Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены,
-                  пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка.
-                  Мы заботимся о вашем комфорте и предлагаем испытать это уже сегодня! 
-                </p>  
-              </div>
-            </div>
-          </li>
-          <li class="latest-news-item">
-            <div class="latest-news-item-pic">
-              <img src="./templates/fitness/Ellipse 3.png" alt="Фрилансер? Выпрями спину!">
-            </div>
-            <div class="latest-news-block">
-              <div class="latest-news-date">22.12.2015</div>              
-              <h4 class="latest-news-block-header">Фрилансер? Выпрями спину!</h4>
-              <div  class="latest-news-block-text">
-                <p>
-                  Создай рабочее местро под себя. Вот этот инструмент поможет определить, что
-                  подходит именно вам и вашему организму. Исползуйте специальную подставку для ноутбука,
-                  если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
-                </p>  
-              </div> 
-            </div>
-          </li>
-        </ul>
-      </div>  
-    </div>
-    <aside class="sidebar-news">
-      <h3 class="sidebar-news-header">топ новостей</h3>
-      <p class="sidebar-news-period">за сентябрь</p>
-      <ul class="sidebar-news-list">
-        <li class="sidebar-news-item">
-          <a href="#" class="sidebar-news-link">
-            <img src="./templates/fitness/Rectangle 1.png" alt="Lorum ipsum">
-          </a>
-        </li>
-        <li class="sidebar-news-item">
-          <a href="#" class="sidebar-news-link">
-            <img src="./templates/fitness/Rectangle 2.png" alt="Lorum ipsum">
-          </a>
-        </li>
-        <li class="sidebar-news-item">
-          <a href="#" class="sidebar-news-link">
-            <img src="./templates/fitness/Rectangle 3.png" alt="Lorum ipsum">
-          </a>
-        </li>
-      </ul>
-    </aside>
-    <div class="pager">
-      <div class="pager-container">
-        <div class="pager-display">Станица 1 из 7</div>
-        <div class="pages-pages">
-          <a href="#" class="pages-button-preview-lt">&lt;</a>
-          <ul class="pages-list">
-            <li class="pages-item"> 
-              <a href="#" class="pagination-link pages-one">1</a>
-            </li>
-            <li class="pages-item"> 
-              <a href="#" class="pagination-link">2</a>
-            </li>
-            <li class="pages-item"> 
-              <a href="#" class="pagination-link">3</a>
-            </li>  
-            <li class="pages-item"> 
-              <a href="#" class="pagination-link">4</a>
-            </li>
-            <li class="pages-item"> 
-              <a href="#" class="pagination-link">5</a>
-            </li>
-            <li class="pages-item"> 
-              <a href="#" class="pagination-link">6</a>
-            </li>
-            <li class="pages-item"> 
-              <a href="#" class="pagination-link">7</a>
-            </li>
-          </ul>
-          <a href="#" class="pages-button-preview-gt">&gt;</a>
+          </div>
         </div>
       </div>
     </div>
     <footer class="footer">
-      <div class="footer-container">
-        <div class="copyright">
-          <p class="copyright-text">
+      <div class="container-footer">
+        <div class="footer__copyright">
+          <p class="footer__copyright-text">
             Сделано с любовью и старанием <br>на курсе "HTML + CSS" в 
-            <a class="copyright-link"><b>LoftSchool.</b></a>
+            <a class="footer__copyright-link"><b>LoftSchool.</b></a>
             Автор работы: <b>Прохладов Вадим</b>
           </p>
         </div>
-        <div class="ws-name-footer">АФРОДИТА</div>
-        <div class="social-media-header">
-          <h5>Наши социальные сети</h5>
-        </div>
-        <div class="social-media"> 
-          <ul class="social-media-list">
-            <li class="social-media-item-vk">
-              <div class="social-background"></div>
-              <div class="social-pic vk">
-                <img src="./templates/fitness/vk.png" alt="Вконтакте">
-              </div>  
-            </li>
-            <li class="social-media-item">
-              <div class="social-background"></div>
-              <div class="social-pic fb">
-                <img src="./templates/fitness/fb.png" alt="Facebook">
-              </div>
-            </li>
-            <li class="social-media-item">
-              <div class="social-background"></div>
-              <div class="social-pic google">
-                <img src="./templates/fitness/google.png" alt="Google +">
-              </div>
-            </li>
-            <li class="social-media-item">
-              <div class="social-background"></div>
-              <div class="social-pic twitter">
-                <img src="./templates/fitness/twitter.png" alt="Twitter">
-              </div>
-            </li>
-            <li class="social-media-item">
-              <div class="social-background"></div>
-              <div class="social-pic mail">
-                <img src="./templates/fitness/mail.png" alt="Email">
-              </div>
-            </li> 
-          </ul>
+        <div class="container-name-social-footer">
+          <div class="footer__header-name">АФРОДИТА</div>
+          <div class="footer__social-media-header">
+            <h5>Наши социальные сети</h5>
+          </div>
+          <div class="footer__social-media"> 
+            <ul class="footer__social-media-list">
+              <li class="footer__social-media-list-item--vk">
+                <div class="footer__social-background"></div>
+                <div class="footer__social-media-pic vk">
+                  <img src="./Templates/fitness/vk.png" alt="Вконтакте">
+                </div>  
+              </li>
+              <li class="footer__social-media-list-item">
+                <div class="footer__social-media-background"></div>
+                <div class="footer__social-media-pic fb">
+                  <img src="./Templates/fitness/fb.png" alt="Facebook">
+                </div>
+              </li>
+              <li class="footer__social-media-list-item">
+                <div class="footer__social-background"></div>
+                <div class="footer__social-media-pic google">
+                  <img src="./Templates/fitness/google.png" alt="Google +">
+                </div>
+              </li>
+              <li class="footer__social-media-list-item">
+                <div class="footer__social-background"></div>
+                <div class="footer__social-media-pic twitter">
+                  <img src="./Templates/fitness/twitter.png" alt="Twitter">
+                </div>
+              </li>
+              <li class="footer__social-media-list-item">
+                <div class="footer__social-background"></div>
+                <div class="footer__social-media-pic mail">
+                  <img src="./Templates/fitness/mail.png" alt="Email">
+                </div>
+              </li> 
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
