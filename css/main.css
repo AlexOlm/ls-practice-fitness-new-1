@@ -174,19 +174,26 @@ nav {
   transform: translateY(5%);
 }
 
+.nike-motto {
+position: relative;
+
+}
+
 .container-nike-motto {
-  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  width: 1060px;
   height: 625px;
   text-align: center;
 }
 
-.nike-motto:before {
+/* .nike-motto:before {
   display: inline-block;
   content: "";
   height: 100%;
-} 
+}  */
 
-.nike-motto__text {
+.nike-motto__pic {
   margin-top: 78px;
   margin-bottom: 58px;
   display: inline-block; 
