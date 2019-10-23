@@ -3,13 +3,13 @@ body {
 }
 
 @font-face {
-  font-family: 'Gora Free';
-  src: url('Templates/fitness/fonts/Gora-Free.ttf');
+  font-family: 'Gora-Free';
+  src: url('./templates/fitness/fonts/gora-free.ttf');
 }
 
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url('Templates/fitness/fonts/OpenSans-Bold.ttf');
+  src: url('./templates/fitness/fonts/OpenSans-Bold.ttf');
 }
 
 @font-face {
@@ -19,17 +19,17 @@ body {
 
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url('templates/fitness/fonts/Open_Sans/OpenSans-Regular.ttf');
+  src: url('./templates/fitness/fonts/Open_Sans/OpenSans-Regular.ttf');
 }
 
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url('templates/fitness/fonts/OpenSans-Light.ttf');
+  src: url('./templates/fitness/fonts/OpenSans-Light.ttf');
 }
 
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('templates/fitness/fonts/OpenSans-Light.ttf');
+  src: url('./templates/fitness/fonts/OpenSans-Light.ttf');
 }
 
 .header {
