@@ -304,19 +304,24 @@ p span {
 }
 
 .features__feature-pic--flower {
-  display: inline-block;
   position: absolute;
-  transform: translate(-50%, 60%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -55%);
 }
 
 .features__feature-pic--star {
   position: absolute;
-  transform: translate(-45%, 55%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -55%);
 }
 
 .features__feature-pic--palette {
   position: absolute;
-  transform: translate(-45%, 75%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -55%);
 }
 
 .features__pic-background {
@@ -721,19 +726,21 @@ b.footer__copyright {
 }
 
 .footer__social-media-pic {
-  display: inline-block;
   position: absolute;
-  transform: translate(-45%, 5%)
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .footer__social-media-pic--fb {
-  display: inline-block;
   position: absolute;
-  transform: translate(-45%, 15%)
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
 }
 
 .footer__social-media-background {
-  display: inline-block;
+  display: block;
   position: relative;
   height: 20px;
   width: 20px;
