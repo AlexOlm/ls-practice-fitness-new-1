@@ -16,7 +16,7 @@
   <div class="wrapper">
     <header class="header">
       <div class="container header__container">
-        <a href="/" class="header-name">
+        <a href="/" class="header__name">
           АФРОДИТА
         </a>
         <nav class="header__navigation">
@@ -65,9 +65,10 @@
           <ul class="features__list">
             <li class="features__list-item">
               <div class="features__pic">
-                <div class="features__pic-background"></div>
-                <div class="features__feature-pic features__feature-pic--flower">
-                  <img src="./templates/fitness/flower.png" alt="Уникальность">
+                <div class="features__pic-background">
+                <div class="features__feature-pic--flower">
+                <img src="./templates/fitness/flower.png"  alt="Уникальность">
+                </div>
                 </div>
               </div>
               <div class="features__feature-block">
@@ -87,10 +88,11 @@
             </li>
             <li class="features__list-item">
               <div class="features__pic">
-                <div class="features__pic-background"></div>
-                <div class="features__feature-pic features__feature-pic--star">
-                  <img src="./templates/fitness/mark-as-favorite-star.png" alt="Премиум-класс">
-                </div>
+                <div class="features__pic-background">
+                  <!-- <div class="features__feature-pic features__feature-pic--star"> -->
+                  <img src="./templates/fitness/mark-as-favorite-star.png" class="features__feature-pic--star" alt="Премиум-класс">
+                  <!-- </div> -->
+                </div>  
               </div>
               <div class="features__feature-block">
                 <h4 class="features__feature-header">премиум-класс</h4>
@@ -108,10 +110,11 @@
             </li>
             <li class="features__list-item">
               <div class="features__pic">
-                <div class="features__pic-background"></div>
-                <div class="features__feature-pic features__feature-pic--palette">
-                  <img src="./templates/fitness/painter-palette.png" alt="Личный-тренер">
-                </div>  
+                <div class="features__pic-background">
+                <!-- <div class="features__feature-pic--palette"> -->
+                  <img src="./templates/fitness/painter-palette.png" class="features__feature-pic--palette" alt="Личный-тренер">
+                <!-- </div>   -->
+                </div>
               </div>
               <div class="features__feature-block">
                 <h4 class="features__feature-header">личный тренер</h4>
@@ -139,7 +142,7 @@
             <ul class="latest-news__list">
               <li class="latest-news__list-item">
                 <div class="latest-news__list-item-pic">
-                  <img src="./templates/fitness/Ellipse 1.jpg" alt="Похудение с помощью бодибилдинга!">
+                  <img src="./templates/fitness/Ellipse 1a.png" alt="Похудение с помощью бодибилдинга!">
                 </div>
                 <div class="latest-news__news-block">
                   <div class="latest-news__news-block-date">02.10.2106</div>              
@@ -155,7 +158,7 @@
               </li>  
               <li class="latest-news__list-item ln-borders">
                 <div class="latest-news__list-item-pic">
-                  <img src="./templates/fitness/Ellipse 2.png" alt="Заражай друзей, получай призы">
+                  <img src="./templates/fitness/Ellipse 2a.png" alt="Заражай друзей, получай призы">
                 </div>
                 <div class="latest-news__news-block">
                   <div class="latest-news__news-block-date">02.02.2106</div>
@@ -171,7 +174,7 @@
               </li>
               <li class="latest-news__list-item">
                 <div class="latest-news__list-item-pic">
-                  <img src="./templates/fitness/Ellipse 3.png" alt="Фрилансер? Выпрями спину!">
+                  <img src="./templates/fitness/Ellipse 3a.png" alt="Фрилансер? Выпрями спину!">
                 </div>
                 <div class="latest-news__news-block">
                   <div class="latest-news__news-block-date">22.12.2015</div>              
@@ -255,42 +258,54 @@
         </div>
         <div class="container-name-social-footer">
           <div class="footer__header-name">АФРОДИТА</div>
-          <div class="footer__social-media-header">
-            <h5>Наши социальные сети</h5>
-          </div>
-          <div class="footer__social-media"> 
-            <ul class="footer__social-media-list">
-              <li class="footer__social-media-list-item--vk">
-                <div class="footer__social-background"></div>
-                <div class="footer__social-media-pic vk">
-                  <img src="./templates/fitness/vk.png" alt="Вконтакте">
-                </div>  
-              </li>
-              <li class="footer__social-media-list-item">
-                <div class="footer__social-media-background"></div>
-                <div class="footer__social-media-pic fb">
-                  <img src="./templates/fitness/fb.png" alt="Facebook">
+          <div class="container-social-footer">
+            <div class="footer__social-media-header">
+              <h5>Наши социальные сети</h5>
+            </div>
+            <div class="footer__social-media"> 
+              <ul class="footer__social-media-list">
+                <li class="footer__social-media-list-item">
+                  <!-- <img src="./templates/fitness/background gray.png" class="footer__social-background" alt="#"> -->
+                  <div class="footer__social-media-background">
+                    <div class="footer__social-media-pic footer__social-media-pic--vk">
+                     <img src="./templates/fitness/vk.png"  alt="Вконтакте">
+                    </div>
+                  </div>
+                </li>
+                <li class="footer__social-media-list-item">
+                    <!-- <img src="./templates/fitness/background gray.png" class="footer__social-background" alt="#">  -->
+                    <div class="footer__social-media-background">
+                      <div class="footer__social-media-pic--fb">
+                        <img src="./templates/fitness/fb.png"  alt="Facebook">
+                    </div>
+                    </div>
+                </li>
+                <li class="footer__social-media-list-item">
+                    <!-- <img src="./templates/fitness/background gray.png" class="footer__social-background" alt="#"> -->
+                    <div class="footer__social-media-background">
+                      <div class="footer__social-media-pic">
+                        <img src="./templates/fitness/google.png"  alt="Google">
+                      </div>
+                    </div>
+                </li>
+                <li class="footer__social-media-list-item">
+                  <!-- <img src="./templates/fitness/background gray.png" class="footer__social-background" alt="#"> -->
+                  <div class="footer__social-media-background">
+                    <div class="footer__social-media-pic">
+                      <img src="./templates/fitness/twitter.png"  alt="Twitter">
+                    </div>
                 </div>
-              </li>
-              <li class="footer__social-media-list-item">
-                <div class="footer__social-background"></div>
-                <div class="footer__social-media-pic google">
-                  <img src="./templates/fitness/google.png" alt="Google +">
+                </li>
+                <li class="footer__social-media-list-item">
+                  <!-- <img src="./templates/fitness/background gray.png" class="footer__social-background" alt="#"> -->
+                  <div class="footer__social-media-background">
+                    <div class="footer__social-media-pic">
+                      <img src="./templates/fitness/mail.png"  alt="Mail">
+                    </div>
                 </div>
-              </li>
-              <li class="footer__social-media-list-item">
-                <div class="footer__social-background"></div>
-                <div class="footer__social-media-pic twitter">
-                  <img src="./templates/fitness/twitter.png" alt="Twitter">
-                </div>
-              </li>
-              <li class="footer__social-media-list-item">
-                <div class="footer__social-background"></div>
-                <div class="footer__social-media-pic mail">
-                  <img src="./templates/fitness/mail.png" alt="Email">
-                </div>
-              </li> 
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
